@@ -20,6 +20,7 @@ const ConvertDecimalToBinary = (num) => {
     while (num != 0) {
         let rest = num%2;
         bin = rest + bin;
+        // Usamos ${} dentro de ` ` par calcular y mostrar el resultado al mismo tiempo.
         console.log(`Step ${step++}: ${num}/2, Resto = ${rest}, Cociente = ${num = parseInt(num/2)}`);
     }
     return bin;
