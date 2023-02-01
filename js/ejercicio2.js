@@ -10,7 +10,6 @@ let maxValue = parseFloat(prompt("Número final del rango... "));
 function GetRandomInt(min, max) {
     min = Math.ceil(min);   // Devuelve el entero mayor o igual más próximo a un número dado..
     max = Math.floor(max);  // Devuelve el máximo entero menor o igual a un número.
-
     return Math.floor(Math.random() * (max - min) + min);
 }
 
